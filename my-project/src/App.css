@@ -1,0 +1,13 @@
+.text-custom-red {
+  color: #FF3131;
+}
+body {
+  /* background-image: url('/public/b-noise.svg'); */
+  background-color: #191919;
+  z-index: 20;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+}
+

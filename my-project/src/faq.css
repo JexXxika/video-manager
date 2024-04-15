@@ -1,0 +1,45 @@
+p{
+  font-size: 28px;
+  font-weight: bold;
+  color: white;
+  text-align: center;
+}
+
+.accordion-item {
+  border-bottom: 1px solid #ccc;
+}
+
+.accordion-button {
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  padding: 10px;
+  font-size: 18px;
+  color: white;
+  width: 100%; /* Ensure button takes full width */
+}
+
+.accordion-button.active {
+  background-color: #333; /* Background color when active */
+}
+
+.accordion-icon {
+  margin-right: 10px;
+  color: #FF3131;
+  font-size: 24px;
+}
+
+.accordion-title {
+  margin-left: 10px;
+  font-size: 18px;
+}
+
+.accordion-content {
+  padding: 10px;
+  padding-left: 36px;
+    color: rgb(75 85 99 );
+  font-size: 1.125rem;
+line-height: 1.75rem; 
+}
